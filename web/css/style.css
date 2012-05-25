@@ -1,0 +1,164 @@
+body{
+    font-family: 'Della Respira', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: transparent url('../images/header.png') repeat-x top left;
+    height: 200px;
+    letter-spacing: 0.3em;
+    font-size: 50px;
+    color: white;
+}
+
+header #message{
+    font-size: 30px;
+    text-align: center;
+}
+
+nav{
+    height: 100px;
+}
+
+#menu-ul li a {  
+    /* This generators the gradient on top of the solid color */  
+    background-image: -webkit-gradient(  
+        linear,  
+        left top,  
+        left bottombottom,  
+        color-stop(0, rgba(255,255,255,.5)),  
+        color-stop(1, rgba(0,0,0,.1))  
+        );  
+    background-image: -moz-linear-gradient(  
+        center top,  
+        rgba(255,255,255,.5) 0%,  
+        rgba(0,0,0,.1) 100%  
+        );  
+    color: #f4f4f4; /* IE */  
+    color: rgba(255, 255, 255, 0.8);  
+    display: block;  
+    font: bold 26px "Myriad Pro","Lucida Grande",Helvetica,Arial,sans-serif;  
+    outline:none;  
+    padding: 5px 15px;  
+    text-decoration: none;  
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);  
+    border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);  
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);  
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+    text-align: center;
+}  
+#menu-ul li a:active {  
+    background-image: -webkit-gradient(  
+        linear,  
+        left bottombottom,  
+        left top,  
+        color-stop(0,rgba(255,255,255,.5)),  
+        color-stop(.1,rgba(255,255,255,.2)),  
+        color-stop(.85, rgba(0,0,0,.2)),  
+        color-stop(100, rgba(0,0,0,.4))  
+        );  
+    background-image: -moz-linear-gradient(  
+        center bottombottom,  
+        rgba(255,255,255,.5) 0%,  
+        rgba(255,255,255,.2) 10%,  
+        rgba(0,0,0,.2) 85%,  
+        rgba(0,0,0,.4) 100%  
+        );  
+} 
+
+
+/*********** COLORS *************/
+/* Create your own class for your own colors */
+.red-menu {
+	background: #B80202;
+	border: #B80202 1px solid
+}
+	.red-menu:hover, .red-menu:focus{
+		background-color:#e30606
+	}
+.green-menu {
+	background: #46c431;
+	border: #46c431 1px solid
+}
+	.green-menu:hover,.green-menu:focus {
+		background-color:#44e329
+	}
+.yellow-menu {
+	background: #D9CE1C;
+	border: #D9CE1C 1px solid
+}
+	.yellow-menu:hover,.yellow-menu:focus {
+		background-color:#eee117
+	}
+.cyan-menu {
+	background: #23c6de;
+	border: #23c6de 1px solid
+}
+	.cyan-menu:hover,.cyan-menu:focus {
+		background-color:#18d8f4
+	}
+.blue-menu {
+	background: #3271d9;
+	border: #3271d9 1px solid
+}
+	.blue-menu:hover,.blue-menu:focus {
+		background-color:#377ef2
+	}
+
+.menu-item{
+    width: 19.86%;
+    float: left;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    width: 100%;
+}
+
+footer{
+    height: 30px;
+    width: 100%;
+    background-image: linear-gradient(top, rgb(46,45,46) 22%, rgb(122,122,122) 61%, rgb(128,128,128) 81%);
+    background-image: -o-linear-gradient(top, rgb(46,45,46) 22%, rgb(122,122,122) 61%, rgb(128,128,128) 81%);
+    background-image: -moz-linear-gradient(top, rgb(46,45,46) 22%, rgb(122,122,122) 61%, rgb(128,128,128) 81%);
+    background-image: -webkit-linear-gradient(top, rgb(46,45,46) 22%, rgb(122,122,122) 61%, rgb(128,128,128) 81%);
+    background-image: -ms-linear-gradient(top, rgb(46,45,46) 22%, rgb(122,122,122) 61%, rgb(128,128,128) 81%);
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#basicMap {
+    width: 600px;
+    height: 600px;
+    margin: 0;
+    position: absolute;
+    top: 300px;
+}
+
+#content{
+    height: auto;
+    min-height: 1000px;
+}

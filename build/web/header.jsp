@@ -1,0 +1,37 @@
+<%-- 
+    Document   : header
+    Created on : 19 mai 2012, 00:12:35
+    Author     : midix
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>boire-un-verre.Fr</title>
+        
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" media="all" />
+        <link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" media="all" />
+        <link href="http://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    </head>
+    <body>
+        <header>
+            boire-un-verre
+            <div id="message">
+                Un verre pour tous, tous pour un verre
+            </div>
+        </header>
+        <nav>
+            <ul id="menu-ul">
+                <li class="menu-item red-menu"><a href="index.jsp">Accueil</a></li>
+                <li class="menu-item green-menu"><a href="trouverRdv.jsp">Trouver un rdv</a></li>
+                <li class="menu-item yellow-menu"><a href="creerRdv.jsp">Créer un rdv</a></li>
+                <li class="menu-item cyan-menu"><a href="profil.jsp">Profil</a></li>
+                <li class="menu-item blue-menu"><a href="suggestions.jsp">Suggestions</a></li>
+            </ul>
+        </nav>
+   
