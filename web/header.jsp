@@ -28,8 +28,7 @@
         <nav>
             <ul id="menu-ul">
                 <li class="menu-item red-menu"><a href="index.jsp">Accueil</a></li>
-                <li class="menu-item green-menu"><a href="trouverRdv.jsp">Trouver un rdv</a></li>
-                <li class="menu-item yellow-menu"><a href="creerRdv.jsp">Créer un rdv</a></li>
+                <li class="menu-item yellow-menu"><a href="rdv.jsp">Rendez-vous</a></li>
                 <li class="menu-item cyan-menu"><a href="profil.jsp">Profil</a></li>
                 <li class="menu-item blue-menu"><a href="suggestions.jsp">Suggestions</a></li>
             </ul>
