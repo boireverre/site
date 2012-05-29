@@ -170,7 +170,7 @@ footer a{
 }
 
 #connection-panel{
-    background-color: #9cd924;
+    background-color: white;
     width: 100%;
     height: auto;
     min-height: 1000px; 
@@ -183,43 +183,29 @@ header #connection{
 #connect{
     width: 300px;
     height: 200px;
-    border: 3px solid #ff9911;
-    background: #ffaa55;
+    background: #A4DE28;
     border-radius: 10px;  
     -moz-border-radius: 10px;  
-    -webkit-border-radius: 10px;  
+    -webkit-border-radius: 10px; 
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
 }
 
 input{
-    background-color: #ffcc55;
-    border: 1px solid #ff9911;
     font-family: 'Della Respira', serif;
+    width: 100%;
+    height: 30px;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #73A7B5;
 }
 
-.connect-title:before {
-    border-color: #BBCCFF #BBCCFF transparent transparent;
-    border-style: solid;
-    border-width: 20px;
-    bottom: -41px;
-    content: " ";
-    display: block;
-    left: -1px;
-    position: absolute;
+input[type="button"]{
+    background-color: #434E48;
+    border-radius: 10px;  
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px; 
+    font-size: 20px;
 }
-.connect-title {
-    background-color: #77AAFF;
-    border-color: #AABBFF #99AAFF #99AAFF #AABBFF;
-    border-radius: 0 15px 15px 0;
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-    display: block;
-    font-size: 21px;
-    left: -71px;
-    letter-spacing: 5px;
-    margin: 10px 0;
-    padding: 20px 40px;
-    position: relative;
-    text-shadow: 1px 1px #000000, 1px 1px #000000, 1px 1px #000000, 1px 1px #000000, 1px 1px #000000, 1px 1px #000000, 1px 1px #000000, 1px 1px 20px #000000;
-    width: 400px;
-}
+

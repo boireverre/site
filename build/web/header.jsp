@@ -12,11 +12,10 @@
         <title>boire-un-verre.Fr</title>
         
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css" media="all" />
-        <link rel="stylesheet" href="http://static.jquery.com/ui/css/demo-docs-theme/ui.theme.css" media="all" />
-        <link href="http://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet"/>
         <script src="js/script.js"></script>
         <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+        <script src="js/jquery-1.7.1.min.js"></script>
     </head>
     <body>
         <header>
